@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuals on Growthbeat | docs</title>
+    <link>http://support.growthbeat.com/manual/</link>
+    <description>Recent content in Manuals on Growthbeat | docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Mar 2016 12:05:16 +0900</lastBuildDate>
+    <atom:link href="http://support.growthbeat.com/manual/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>GrowthPush</title>
+      <link>http://support.growthbeat.com/manual/growthpush/</link>
+      <pubDate>Fri, 11 Mar 2016 12:05:16 +0900</pubDate>
+      
+      <guid>http://support.growthbeat.com/manual/growthpush/</guid>
+      <description>
+
+&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;h2 id=&#34;新規登録-ログイン&#34;&gt;新規登録 / ログイン&lt;/h2&gt;
+
+&lt;p&gt;Growth Pushの管理画面にログインするためには、会員登録（無料）をする必要があります。
+Growth Pushのアカウントはシロクが提供するグロースハックツールのプラットフォームであるGrowthbeat(&lt;a href=&#34;https://growthbeat.com/&#34;&gt;https://growthbeat.com/&lt;/a&gt; )で管理されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://growthbeat.com/&#34;&gt;https://growthbeat.com/&lt;/a&gt; より、会員登録を行うことができます。右上の【会員登録（無料）】をクリックしていただきますと、以下の画像に示されている画面に遷移してアカウント作成が行えます。メールアドレス・パスワード・お客様の属性を選択された後に、利用規約をご覧下さい。利用規約とお知らせメールの受信に同意していただける場合にはチェックしていただきまして、【無料登録】をクリックしていただけますと新規登録は完了です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_login.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アカウントを既にお持ちの場合には、【会員登録（無料）】の隣にあります。【ログイン】をクリックして頂けますと、以下のような画面に遷移しログインすることができます。
+万が一パスワードを忘れてしまった場合は、【ログイン】の下にございます、【パスワード再発行】より、パスワードの再発行を行って下さい。&lt;/p&gt;
+
+&lt;p&gt;ログイン画面&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_create_account.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ログインをすると、Growthbeatのトップ画面にたどり着きます。そこでGrowthPushを選択して下さい。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_select_servce.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリの追加&#34;&gt;アプリの追加&lt;/h2&gt;
+
+&lt;p&gt;上記の操作を完了すると、管理画面が表示されます。この時アプリはDefault Appが選択された状態になっています。&lt;/p&gt;
+
+&lt;p&gt;Growth Pushを適用したいアプリを追加するには、メインメニューの【アプリ】のプルダウンメニューから、
+【アプリ追加】を選択し、アプリケーション作成画面へ遷移します。適用したいアアプリの名前を入力し、作成
+ボタンをクリックして完了となります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_add_application.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アプリの詳細情報に関しましてはGrowthbeat管理画面にて設定してください。設定方法は&lt;a href=&#34;http://support.growthbeat.com/manual/growthbeat/#アプリ情報の確認&#34;&gt;Growthbeat管理画面操作方法&lt;/a&gt;をご参照ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_create_application.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;プッシュ通知を送信するためには、メインメニューから対象のアプリを選択する必要があります。&lt;/p&gt;
+
+&lt;h1 id=&#34;配信作成&#34;&gt;配信作成&lt;/h1&gt;
+
+&lt;h2 id=&#34;セグメントの作成&#34;&gt;セグメントの作成&lt;/h2&gt;
+
+&lt;p&gt;イベントとタグという2つのデータをもちいて、ユーザーをセグメント化し、配信をすることができます。&lt;/p&gt;
+
+&lt;p&gt;例えば、タグの場合はiOSユーザーとAndroidユーザーに別の配信を送る際に使用できます。イベントの場合は初回起動ユーザーや、課金ユーザーに配信を送る際に使用できます。NOTを追加すると、否定条件を入れることができます。&lt;/p&gt;
+
+&lt;p&gt;詳細に関しましてはサポートページの&lt;a href=&#34;http://faq.growthbeat.com/article/18-article&#34;&gt;セグメントとは&lt;/a&gt;をご参照ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;セグメントの作成事例は下記を御覧ください。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/22-android&#34;&gt;【セグメント】Androidのバージョン指定のセグメント作成&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/98-article&#34;&gt;【よくあるセグメントの作成方法】性別（男性/女性）&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/94-article&#34;&gt;【よくあるセグメントの作成方法】課金経験あり&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/90-n&#34;&gt;【よくあるセグメントの作成方法】N日間起動していないユーザー&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;文字パターン-設定&#34;&gt;文字パターン/設定&lt;/h2&gt;
+
+&lt;p&gt;メニューから【プッシュ送信】を選択し、文字パターンに送信したいテキストを入力してください。（例、【本日初日！】週末限定タイムセール！）
+プッシュ配信の最大文字数は80文字です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_create_notification_pattern.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配信時間の設定&#34;&gt;配信時間の設定&lt;/h2&gt;
+
+&lt;p&gt;配信時間を追加で、日付け・時間を設定してください。
+プッシュ通知の配信時間を複数にわけることが可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_create_notification_time.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;カスタムフィールド&#34;&gt;カスタムフィールド&lt;/h2&gt;
+
+&lt;p&gt;あるプッシュ通知から起動した際にアプリに追加情報を伝えたい時があると思います。その際にこちらのカスタムフィールドをお使い下さい。記述フォーマットはJSONです。&lt;/p&gt;
+
+&lt;p&gt;具体的な実装方法は下記をご参照ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/48-article&#34;&gt;カスタムフィールドを受け取る実装&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_create_notification_customfield.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1パターンの配信&#34;&gt;1パターンの配信&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_pattern.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;サウンド&#34;&gt;サウンド&lt;/h3&gt;
+
+&lt;p&gt;プッシュ通知を受け取った際に音が鳴ります。&lt;/p&gt;
+
+&lt;h3 id=&#34;バッジ&#34;&gt;バッジ&lt;/h3&gt;
+
+&lt;p&gt;プッシュ通知を受け取った際に赤色の数値をアプリのアイコンに表示させます。&lt;/p&gt;
+
+&lt;h3 id=&#34;カスタムフィールドに通知idを追加&#34;&gt;カスタムフィールドに通知IDを追加&lt;/h3&gt;
+
+&lt;p&gt;Growth Pushの送信画面で「通知IDを追加」のオプションを設定いただくと、プッシュ通知のペイロードに、growthpushというキーのオブジェクトが追加されます。
+ &lt;code&gt;{&amp;quot;growthpush&amp;quot;:{&amp;quot;notificationId&amp;quot;:10000}}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;例えば下記のような時に使用します。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;独自のプッシュ通知機構を既に実装されている場合、Growth Pushから配信されたプッシュ通知を区別したい場合&lt;/li&gt;
+&lt;li&gt;クライアントSDK側でどの通知が開かれたかを計測したい場合&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;秒間配信数&#34;&gt;秒間配信数&lt;/h2&gt;
+
+&lt;p&gt;秒間配信数は、配信速度は、「1秒間に何通を送信するか」の数字で設定していただくことが可能です。 たとえば、100を設定した場合、1秒あたり100通程度の送信となるように配信間隔を調整します。&lt;/p&gt;
+
+&lt;h1 id=&#34;自動配信設定&#34;&gt;自動配信設定&lt;/h1&gt;
+
+&lt;p&gt;配信作成の設定に加えて自動配信設定の項目で、配信開始、配信終了、配信間隔を設定します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_automation.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;重複解除&#34;&gt;重複解除&lt;/h2&gt;
+
+&lt;p&gt;管理画面の「重複排除」にチェックをすると、一度自動配信が配信されたユーザーには同一の自動配信からプッシュ通知が配信されなくなります。この設定をしている場合、ある日に「1週間起動をしていないユーザー」に該当したユーザーは、翌日に「1週間起動をしていないユーザー」に該当したとしてもプッシュ通知は配信されません。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/pusn_ignore_duplicate.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配信時間設定&#34;&gt;配信時間設定&lt;/h2&gt;
+
+&lt;p&gt;配信時間を追加で、日付け、時間を設定できます。&lt;/p&gt;
+
+&lt;h2 id=&#34;配信間隔&#34;&gt;配信間隔&lt;/h2&gt;
+
+&lt;p&gt;自動配信設定の際に、いつからいつまでを何時間間隔で設定することが可能です。&lt;/p&gt;
+
+&lt;h1 id=&#34;送信履歴&#34;&gt;送信履歴&lt;/h1&gt;
+
+&lt;p&gt;配信設定した文言とレポートを確認することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;プッシュ通知の配信状況を確認する&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;「完了(Completed)」となっている送信は、配信処理が終了していますが、その他のステータスのものは送信処理の途中です。配信が完了するまでお待ちください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_notification_status.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;プッシュ通知の配信の詳細を確認する&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;配信が完了している場合は、配信の詳細を確認してください。「送信履歴」からプッシュ通知のメッセージ部分のリンクをクリックしていただくと詳細をご覧いただくことができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_notification_detail.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ここで実際に配信されている数が確認できるので、配信数がゼロとなっている場合は、デバイスが正しく登録されていない状況が考えられます。配信ステータスが「失敗(Failure)」となっている場合は、以下の方法でログを確認してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;プッシュ通知の配信のログを確認する&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ログを確認するには、配信の行をクリックしてください。（リンクになっていませんが、しばらくするとポップアップが出現します。）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_show_log.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;証明書などに問題がある場合は、ここに失敗のエラーメッセージが出ます。エラーを確認して、対応をおこなってください。&lt;/p&gt;
+
+&lt;h2 id=&#34;レポート&#34;&gt;レポート&lt;/h2&gt;
+
+&lt;p&gt;配信総人数、イベント発生人数、割合を見ることができます。配信時間から最大24時間経過してから正常な値がご確認いただけます。
+また、イベントが未設定の場合はこちらの画面は「There is no event.」となります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_report.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;csvエクスポート&#34;&gt;CSVエクスポート&lt;/h2&gt;
+
+&lt;p&gt;指定した期間の配信データを一括でダウンロードすることができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_csv_export.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;excelインポート&#34;&gt;Excelインポート&lt;/h2&gt;
+
+&lt;p&gt;配信予約をExcelで入稿することが可能です。「こちら」の部分をクリックしてフォーマットをダウンロードして頂き、項目を入力してから「ファイルを選択」でExcelをインポートして配信設定が完了します。こちらの機能は&lt;strong&gt;β版&lt;/strong&gt;となります。配信内容に誤りがある場合は手動で停止して頂く必要があります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_excel_import.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;デバイス&#34;&gt;デバイス&lt;/h1&gt;
+
+&lt;p&gt;デバイスではデバイストークンの状況を確認することができます。デバイストークンのインポート機能もあり、CSVで一度に20万件まで送ることができます。端末のステータスは下記のように管理されており、実際に配信されるのは active の端末となります。また、&lt;strong&gt;一度 inactive になった端末は、手動にて更新ボタンを押さないかぎり active に変化することはありません。&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;unknown：未検証状態&lt;/li&gt;
+&lt;li&gt;validating：検証処理中&lt;/li&gt;
+&lt;li&gt;active：検証済み&lt;/li&gt;
+&lt;li&gt;invalid：正しくないデバイストークン&lt;/li&gt;
+&lt;li&gt;inactive：プッシュ通知送信後、アプリをアンインストールもしくはプッシュ通知をオフにしているしていると分かったデバイス&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_device_list.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;各ステータスに関するトラブルシューティングは下記FAQを御覧ください&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/101-invalid&#34;&gt;デバイストークンが「invalid(不正)」になる&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/76-activeinactive&#34;&gt;（ステータス）active時にプッシュ送信すると、inactiveに変わる状況とは？&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/60-push&#34;&gt;Push通知が届かない場合のトラブルシューティング&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;イベント&#34;&gt;イベント&lt;/h1&gt;
+
+&lt;p&gt;GrowthPushに登録されているイベントを一覧で表示する画面です。一覧項目は以下の3つになっており、レポートボタンをクリックするとそれぞれのイベントを起こしたユーザーのログを確認することができます。詳細に関しましてはサポートページの&lt;a href=&#34;http://faq.growthbeat.com/article/17-article&#34;&gt;イベントとは&lt;/a&gt;をご参照ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_event_list.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;タグ&#34;&gt;タグ&lt;/h1&gt;
+
+&lt;p&gt;GrowthPushに登録されているタグを一覧で表示する画面です。一覧項目は以下の3つになっており、詳細ボタンをクリックするとそれぞれのタグを取得したユーザーのログを確認することができます。詳細に関しましてはサポートページの&lt;a href=&#34;http://faq.growthbeat.com/article/16-article&#34;&gt;タグとは&lt;/a&gt;をご参照ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_tag_list.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;セグメント&#34;&gt;セグメント&lt;/h1&gt;
+
+&lt;p&gt;作成したセグメント一覧の人数を見ることができます。更新ボタンを押すと、リアルタイムの人数が表示されます。セグメントの人数として表示される人数は概算となっており、配信されるのは、この人数のうち、&lt;strong&gt;実際に配信が可能と判定されている端末のみ&lt;/strong&gt;となります。&lt;/p&gt;
+
+&lt;p&gt;詳細に関しましてはサポートページの&lt;a href=&#34;http://faq.growthbeat.com/article/18-article&#34;&gt;セグメントとは&lt;/a&gt;をご参照ください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/push/push_segment_list.png&#34; alt=&#34;&#34; title=&#34;&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GrowthLink</title>
+      <link>http://support.growthbeat.com/manual/growthlink/</link>
+      <pubDate>Fri, 15 Jan 2016 12:56:00 +0900</pubDate>
+      
+      <guid>http://support.growthbeat.com/manual/growthlink/</guid>
+      <description>
+
+&lt;h1 id=&#34;ディープリンクについて&#34;&gt;ディープリンクについて&lt;/h1&gt;
+
+&lt;p&gt;Growth Linkの設定にかならずしもdeep linkの知識は必須ではありませんが、
+ディープリンクの知識や他関連技術とGrowth Link関係性についての理解を深めておくと設定がやりやすくなります。
+理解の助けになる記事を下記に記載いたしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/141-growthlink&#34;&gt;ディープリンクとGrowth Linkの関係&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/139-universallinks&#34;&gt;UniversalLinksの説明とGrowth Linkの対応状況&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/143-open-graph-protocol&#34;&gt;OGP(Open Graph protocol)について&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/138-twitter&#34;&gt;Twitterカードの説明とGrowth Linkとの対応状況&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://faq.growthbeat.com/article/140-applinks&#34;&gt;AppLinksの説明とGrowth Linkの対応状況&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;リンク&#34;&gt;リンク&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧画面&#34;&gt;一覧画面&lt;/h2&gt;
+
+&lt;p&gt;作成したリンクを確認することができます。
+確認できるのは、以下の6つです。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;リンク名&lt;/li&gt;
+&lt;li&gt;URL&lt;/li&gt;
+&lt;li&gt;メディア、タグ&lt;/li&gt;
+&lt;li&gt;クリック数&lt;/li&gt;
+&lt;li&gt;インストール数&lt;/li&gt;
+&lt;li&gt;オープン数&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-linklist.png&#34; alt=&#34;manual-linklist&#34; title=&#34;manual-linklist&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;編集画面&#34;&gt;編集画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-linkedit-name.png&#34; alt=&#34;manual-linkedit-name&#34; title=&#34;manual-linkedit-name&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;リンク名&lt;/strong&gt;
+リンクを管理するための名前です。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;リンクURL&lt;/strong&gt;
+DeepLinkのURLを決めることができます。
+入力されていない場合はランダムな文字列が与えられます。&lt;/p&gt;
+
+&lt;h3 id=&#34;ディープリンク設定&#34;&gt;ディープリンク設定&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-linkedit-action.png&#34; alt=&#34;manual-linkedit-action&#34; title=&#34;manual-linkedit-action&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ランディングページのURL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ストアやアプリに遷移する前にランディングページを見せたい場合は、URLを入力してください。
+空欄の場合はランディングページを挟みません。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;アクション&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ピンクの枠で囲われた部分はではリンクに関連づけるアクションを設定できます。。
+アクションについてはメニューにあるアクションを参照してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;アプリ未インストール時の遷移先&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-linkedit-fallback.png&#34; alt=&#34;manual-linkedit-fallback&#34; title=&#34;manual-linkedit-fallback&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アプリがインストールさせていない時の遷移先URLを設定できます。
+クリックした時にストア以外に飛ばしたい場合はここを設定してください。
+設定しない場合は基本設定で設定しているURLに遷移します。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ソーシャルメディア設定&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;TwitterカードやFacebookのOGPに対応させる場合に設定してください。&lt;/p&gt;
+
+&lt;h3 id=&#34;メディア-タグ&#34;&gt;メディア、タグ&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-linkedit-tag.png&#34; alt=&#34;manual-linkedit-tag&#34; title=&#34;manual-linkedit-tag&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;このリンクに関連づけるメディアとタグを設定できます。
+ポストバックと関連づける際は該当するメディアを選んでください。&lt;/p&gt;
+
+&lt;h1 id=&#34;メディア&#34;&gt;メディア&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧画面-1&#34;&gt;一覧画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-medialist.png&#34; alt=&#34;manual-medialist&#34; title=&#34;manual-medialist&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;メディアごとのクリック数、インストール数、オープン数を確認できます。&lt;/p&gt;
+
+&lt;h2 id=&#34;編集画面-1&#34;&gt;編集画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-mediaedit.png&#34; alt=&#34;manual-mediaedit&#34; title=&#34;manual-mediaedit&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;メディア名&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;メディアの名前を入力してください。
+この名前はポストバックやリンク管理でも使われます。&lt;/p&gt;
+
+&lt;h1 id=&#34;タグ&#34;&gt;タグ&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧画面-2&#34;&gt;一覧画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-taglist.png&#34; alt=&#34;manual-taglist&#34; title=&#34;manual-taglist&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;タグごとのクリック数、インストール数、オープン数を確認できます。&lt;/p&gt;
+
+&lt;h1 id=&#34;ポストバック&#34;&gt;ポストバック&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧画面-3&#34;&gt;一覧画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-postbacklist.png&#34; alt=&#34;manual-postbacklist&#34; title=&#34;manual-postbacklist&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ポストバックの一覧を確認できます。&lt;/p&gt;
+
+&lt;h2 id=&#34;編集画面-2&#34;&gt;編集画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-postbackedit.png&#34; alt=&#34;manual-postbackedit&#34; title=&#34;manual-postbackedit&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ポストバック名&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ポストバックを管理するための名前を入力してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;メディア&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ポストバックと関連づけるメディアを選択してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;イベント&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;どのイベントが起きたタイミングでポストバックを行うかを選択できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;パラメータ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ポストバックURLに含めるクエリパラメータを設定できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;テンプレート&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-postbackedit-template.png&#34; alt=&#34;manual-postbackedit-template&#34; title=&#34;manual-postbackedit-template
+&#34; width=&#34;80%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ポストバック先のURLやポストバックの方法が設定できます。
+マクロによってGrowthLinkのURLに付与されたクエリパラメータを利用することもできます。&lt;/p&gt;
+
+&lt;p&gt;例： http://gbt.io/l/XXXXXXX?uid=1234
+で得たuidをポストバックで http://example.com?uid=1234
+で返したい場合、ポストバックURLをhttp://example.com、keyを&lt;code&gt;uid&lt;/code&gt;、valueを&lt;code&gt;{uid}&lt;/code&gt;としてください。&lt;/p&gt;
+
+&lt;h1 id=&#34;アクション&#34;&gt;アクション&lt;/h1&gt;
+
+&lt;h2 id=&#34;アクションとは&#34;&gt;アクションとは&lt;/h2&gt;
+
+&lt;p&gt;アクションとは、ディープリンク経由でアプリをインストール or 開いた場合の挙動のことです。&lt;/p&gt;
+
+&lt;h2 id=&#34;一覧画面-4&#34;&gt;一覧画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-actionlist.png&#34; alt=&#34;manual-actionlist&#34; title=&#34;manual-actionlist&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アクションの一覧を確認できます。&lt;/p&gt;
+
+&lt;h2 id=&#34;編集画面-3&#34;&gt;編集画面&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-actionedit.png&#34; alt=&#34;manual-actionedit&#34; title=&#34;manual-actionedit&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;名前&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;アクションを管理するための名前を入力してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;タイプ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;・ URLオープン: 指定したURLをブラウザで開きます。&lt;/p&gt;
+
+&lt;p&gt;・ カスタム: 設定したkeyとvalueをアプリ側で取得できます。valueを動的に変えたい場合は&lt;a href=&#34;http://growthhack.sirok.co.jp/growthlink/growth-link-3/&#34;&gt;カスタムパラメータ機能&lt;/a&gt;を利用してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;説明&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;アクションのメモを入力できます。&lt;/p&gt;
+
+&lt;h1 id=&#34;基本設定&#34;&gt;基本設定&lt;/h1&gt;
+
+&lt;h2 id=&#34;計測方法&#34;&gt;計測方法&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-setting-method.png&#34; alt=&#34;manual-setting-method&#34; title=&#34;manual-setting-method&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Cookie, Device Fingerprint, Install Referrerから計測方法を選択できます。&lt;/p&gt;
+
+&lt;h2 id=&#34;リンク基本設定&#34;&gt;リンク基本設定&lt;/h2&gt;
+
+&lt;h3 id=&#34;ios用の設定&#34;&gt;iOS用の設定&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-setting-ios.png&#34; alt=&#34;manual-setting-ios&#34; title=&#34;manual-setting-ios&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;App Store URL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ストアのURLを入力してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;URLスキーム&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;アプリに設定したURLスキームを入力してください。
+例： custom_shceme:// の場合は custom_scheme と入力してください。&lt;/p&gt;
+
+&lt;h4 id=&#34;universal-links設定&#34;&gt;Universal Links設定&lt;/h4&gt;
+
+&lt;p&gt;iOS9.x系に対応させるためにはUniversal Links設定が必要になります。
+詳しくは導入方法ドキュメントを参照してください。&lt;/p&gt;
+
+&lt;h3 id=&#34;android用の設定&#34;&gt;Android用の設定&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-setting-android.png&#34; alt=&#34;manual-setting-android&#34; title=&#34;manual-setting-android&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Play URL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Google PlayストアのURLを入力してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;URLスキーム&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;アプリに設定したURLスキームを入力してください。
+例： custom_shceme:// の場合は custom_scheme と入力してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Androidパッケージ名&lt;/strong&gt;
+アプリのパッケージ名を入力してください。&lt;/p&gt;
+
+&lt;h3 id=&#34;pc用の設定&#34;&gt;PC用の設定&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/link/manual-setting-pc.png&#34; alt=&#34;manual-setting-pc&#34; title=&#34;manual-setting-pc&#34; width=&#34;50%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;PCでディープリンクをクリックした場合の遷移先となるURLを入力してください。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Growthbeat</title>
+      <link>http://support.growthbeat.com/manual/growthbeat/</link>
+      <pubDate>Mon, 16 Nov 2015 12:05:16 +0900</pubDate>
+      
+      <guid>http://support.growthbeat.com/manual/growthbeat/</guid>
+      <description>
+
+&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;h2 id=&#34;新規登録-ログイン&#34;&gt;新規登録/ログイン&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://growthbeat.com/&#34;&gt;https://growthbeat.com/&lt;/a&gt; より、会員登録を行うことができます。右上の【会員登録(無料)】をクリックしていただきますと、以下の画像に示されている画面に遷移してアカウント作成が行えます。メールアドレス・バスワード・お客様の属性を選択された後に、利用規約をご覧ください。利用規約とお知らせメールの受信に同意していただける場合にはチェックをしていただきまして、【無料登録】をクリックしていただけますと新規登録は完了です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-create-account.png&#34; alt=&#34;beat-create-account&#34; title=&#34;beat-create-account&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アカウントを既にお持ちの場合には、【会員登録(無料)】の隣にあります、【ログイン】をクリックして頂けますと、以下のような画面に遷移しログインすることができます。アカウントのメールアドレスとバスワードをご入力ください。万が一バスワードを忘れてしま った場合は、【ログイン】の下にございます、【バスワード再発行】より、バスワードの再 発行を行ってください。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ログイン画面&lt;/strong&gt;
+&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-login.png&#34; alt=&#34;beat-login&#34; title=&#34;beat-login&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;マイページ&#34;&gt;マイページ&lt;/h1&gt;
+
+&lt;p&gt;Growthbeat のトップ画面から Mypage を選択してください。 Mypage では下記項目の確認ができます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アカウント情報&lt;/li&gt;
+&lt;li&gt;スタッフ一覧（子アカウントの確認）&lt;/li&gt;
+&lt;li&gt;現在のリクエスト数&lt;/li&gt;
+&lt;li&gt;クレデンシャルキー等の高度な設定&lt;/li&gt;
+&lt;li&gt;現在のプランの確認&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;マイページ&lt;/strong&gt;
+&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-select-mypage.png&#34; alt=&#34;beat-select-mypage&#34; title=&#34;beat-select-mypage&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;アカウント情報の確認&#34;&gt;アカウント情報の確認&lt;/h1&gt;
+
+&lt;h2 id=&#34;アカウントidの確認&#34;&gt;アカウントIDの確認&lt;/h2&gt;
+
+&lt;p&gt;マイページのアカウントIDが確認できます。アカウントIDはAPIを使用する際に必要になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-account-id.png&#34; alt=&#34;beat-account-id&#34; title=&#34;beat-account-id&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;パスワードの変更&#34;&gt;パスワードの変更&lt;/h2&gt;
+
+&lt;p&gt;パスワードを変更する場合は、自分のアカウントを選択し、詳細タブを選択します。
+下部にあるパスワードの変更ボタンをクリックします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-change-password.png&#34; alt=&#34;beat-change-password&#34; title=&#34;beat-change-password&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;現在のパスワード・新しいパスワード・新しいパスワードの再入力をして、パスワードの変更が完了になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-change-password-modal.png&#34; alt=&#34;beat-change-password-modal&#34; title=&#34;beat-change-password-modal&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;apiキーの確認&#34;&gt;APIキーの確認&lt;/h2&gt;
+
+&lt;p&gt;Mypage の下部に APIキー があります。APIリクエストを送る際に必要な key になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-api-key.png&#34; alt=&#34;beat-api-key&#34; title=&#34;beat-api-key&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sdkキーの確認&#34;&gt;SDKキーの確認&lt;/h2&gt;
+
+&lt;p&gt;Mypage の下部に SDKキー があります。SDKリクエストを送る際に必要な key になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-sdk-key.png&#34; alt=&#34;beat-sdk-key&#34; title=&#34;beat-sdk-key&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;アプリ情報の確認&#34;&gt;アプリ情報の確認&lt;/h1&gt;
+
+&lt;h2 id=&#34;アプリの登録&#34;&gt;アプリの登録&lt;/h2&gt;
+
+&lt;p&gt;上部セレクトボックスを &lt;code&gt;アカウント名 &amp;gt; Growthbeat &amp;gt; 全てのアプリケーション&lt;/code&gt; にします。
+一番右のセレクトボックスの最下部からアプリケーションを選択できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-add-application.png&#34; alt=&#34;beat-add-application&#34; title=&#34;beat-add-application&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アプリケーション名を登録すると、アプリの登録完了となります。複数登録する場合は、アプリ名の区別がつきやすい名前入にすることをおすすめします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-add-application-modal.png&#34; alt=&#34;beat-add-application-modal&#34; title=&#34;beat-add-application-modal&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリストアurlの登録&#34;&gt;アプリストアURLの登録&lt;/h2&gt;
+
+&lt;p&gt;アプリケーションストアのURLの保存ができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-application-status.png&#34; alt=&#34;beat-application-status&#34; title=&#34;beat-application-status&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリの削除&#34;&gt;アプリの削除&lt;/h2&gt;
+
+&lt;p&gt;上部セレクトボックスを &lt;code&gt;アカウント名 &amp;gt; Growthbeat &amp;gt; 対象アプリ&lt;/code&gt; にします。
+最下部にアプリの削除ボタンがあり、対象アプリの削除が可能です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-application-status.png&#34; alt=&#34;beat-application-status&#34; title=&#34;beat-application-status&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;スタッフ一覧&#34;&gt;スタッフ一覧&lt;/h1&gt;
+
+&lt;p&gt;自身のアカウントに紐づく子アカウントが表示されます。子アカウントの招待も行えます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-stuff-list.png&#34; alt=&#34;beat-stuff-list&#34; title=&#34;beat-stuff-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;スタッフ招待&#34;&gt;スタッフ招待&lt;/h2&gt;
+
+&lt;p&gt;権限を与えたいアカウントの権限を選択します。&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;項目&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;内容&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;アプリケーション選択&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;権限を付与したいアプリ名&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;権限選択&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;管理者：閲覧かつ編集権限 &lt;br /&gt;&lt;br /&gt; 閲覧者：閲覧のみの権限&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;メールアドレス&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;招待を送りたいメールアドレス&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;招待文&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;メールに含まれる文章&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：子アカウントのリクエスト数は、招待元のアカウントのものとして扱われます。子アカウントに引き継がれるのは、&lt;strong&gt;アプリの権限のみとなり、サービスの権限は引き継がれません&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-stuff-invitation.png&#34; alt=&#34;beat-stuff-invitation&#34; title=&#34;beat-stuff-invitation&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;リクエスト数の確認&#34;&gt;リクエスト数の確認&lt;/h1&gt;
+
+&lt;p&gt;サービスのリクエスト数が確認できます。
+上部のセレクトボックスにてサービスを選択すると、より詳細な、登録アプリごとのリクエスト数が確認できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-request-application.png&#34; alt=&#34;beat-request-application&#34; title=&#34;beat-request-application&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;高度な設定&#34;&gt;高度な設定&lt;/h1&gt;
+
+&lt;p&gt;クレデンシャルキーの管理、アカウントのIP制限、権限追加が行えます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-advanced-setting.png&#34; alt=&#34;beat-advanced-setting&#34; title=&#34;beat-advanced-setting&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;クレデンシャルキーの追加-削除&#34;&gt;クレデンシャルキーの追加・削除&lt;/h2&gt;
+
+&lt;p&gt;APIにアクセスするためのクレデンシャルキーの追加ができます。追加・削除が行えるので、&lt;strong&gt;外部にクレデンシャルキーを提供する場合等にご使用ください&lt;/strong&gt;。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-add-cledential.png&#34; alt=&#34;beat-add-cledential&#34; title=&#34;beat-add-cledential&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;ip制限&#34;&gt;IP制限&lt;/h2&gt;
+
+&lt;p&gt;IP制限を追加すると、こちらで指定したIPからのみ Growthbeat の管理画面にログイン可能になります。&lt;/p&gt;
+
+&lt;h2 id=&#34;権限&#34;&gt;権限&lt;/h2&gt;
+
+&lt;p&gt;アカウントに対して、より詳細な権限をもつアカウントを追加することができます。こちらは高度な設定になりますので、設定したい場合は &lt;a href=&#34;https://growthbeat.com/inquiry&#34;&gt;こちら&lt;/a&gt; よりお問い合わせください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-add-authority.png&#34; alt=&#34;beat-add-authority&#34; title=&#34;beat-add-authority&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;プラン設定&#34;&gt;プラン設定&lt;/h1&gt;
+
+&lt;p&gt;自身が登録しているプランの確認が行えます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-plan-list.png&#34; alt=&#34;beat-plan-list&#34; title=&#34;beat-plan-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;リクエスト上限数の確認&#34;&gt;リクエスト上限数の確認&lt;/h2&gt;
+
+&lt;p&gt;リクエスト上限数の確認ができます。Enterprise 契約のお客様はクレジットカードの登録は必要ない場合もございます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-check-plan.png&#34; alt=&#34;beat-check-plan&#34; title=&#34;beat-check-plan&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;クレジットカードの登録&#34;&gt;クレジットカードの登録&lt;/h2&gt;
+
+&lt;p&gt;クレジットカード情報の登録になります。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意&lt;/strong&gt;：カード決済は&lt;strong&gt;月の営業日初日&lt;/strong&gt;に請求させていただきます。カード情報に誤りがあった場合はメールにてご連絡させていただきます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/beat/beat-add-credit.png&#34; alt=&#34;beat-add-credit&#34; title=&#34;beat-add-credit&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Growth Message</title>
+      <link>http://support.growthbeat.com/manual/growthmessage/</link>
+      <pubDate>Wed, 04 Nov 2015 12:05:16 +0900</pubDate>
+      
+      <guid>http://support.growthbeat.com/manual/growthmessage/</guid>
+      <description>
+
+&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;
+
+&lt;h2 id=&#34;新規登録-ロク-イン-連携&#34;&gt;新規登録 / ログイン / 連携&lt;/h2&gt;
+
+&lt;p&gt;Growth Message の管理画面へログインするためには、会員登録(無料)をする必要があります。GrowthMessageのアカウントはSirokが提供すグロースハックツールのプラットフォームであるGrowthbeat( &lt;a href=&#34;https://growthbeat.com/&#34;&gt;https://growthbeat.com/&lt;/a&gt; )で管理されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://growthbeat.com/&#34;&gt;https://growthbeat.com/&lt;/a&gt; より、会員登録を行うことができます。右上の【会員登録(無料)】をクリックしていただきますと、以下の画像に示されている画面に遷移してアカウント作成が行えます。メールアドレス・パスワード・お客様の属性を選択された後に、利用規約をご覧ください。利用規約とお知らせメールの受信に同意していただける場合にはチェックをしていただきまして、【無料登録】をクリックしていただけますと新規登録は完了です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-register.png&#34; alt=&#34;message-register&#34; title=&#34;message-register&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アカウントを既にお持ちの場合には、【会員登録(無料)】の隣にあります、【ログイン】をクリックして頂けますと、以下のような画面に遷移しログインすることができます。アカウントのメールアドレスとパスワードをご入力ください。万が一パスワードを忘れてしま った場合は、【ログイン】の下にございます、【パスワード再発行】より、パスワードの再 発行を行ってください。&lt;/p&gt;
+
+&lt;p&gt;ログイン画面
+&lt;img src=&#34;http://support.growthbeat.com/img/message/message-login.png&#34; alt=&#34;message-login&#34; title=&#34;message-login&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ログインされますと、Growthbeat のトップ画面にたどり着きます。そこでGrowthMessage を選択してください。&lt;/p&gt;
+
+&lt;p&gt;トップ画面
+&lt;img src=&#34;http://support.growthbeat.com/img/message/message-top.png&#34; alt=&#34;message-top&#34; title=&#34;message-top&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;サービス連携
+Growth Message の管理画面を初めて表示する際には、以下のようにサービス連携の許可を得るための画面が表示されます。ガイドラインから Growthbeatの規約を確認してください。規約に同意する場合にはチェックをし、【連携する】をクリックされると、管理画面が表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-cooperation.png&#34; alt=&#34;message-cooperation&#34; title=&#34;message-cooperation&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリの追加&#34;&gt;アプリの追加&lt;/h2&gt;
+
+&lt;p&gt;上記の操作を完了すると、管理画面が表示されます。この時アプリは Default App が選択された状態になっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-add-application.png&#34; alt=&#34;message-add-application&#34; title=&#34;message-add-application&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;Growth Message を適用したいアプリを追加するには、メインメニューの【アプリ】のプルダウンメニューから、【アプリ追加】を選択し、アプリケーション作成画面へ遷移します。適用したいアプリの名前を入力し、作成ボタンをクリックして完了となります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-application.png&#34; alt=&#34;message-create-application&#34; title=&#34;message-create-application&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;作成が完了すると、アプリを管理している Growthbeat画面へ遷移します。アプリ名以外の情報をここで入力し、管理してください。Growth Message の管理画面へは、ヘッダーから遷移することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-setting-application.png&#34; alt=&#34;message-setting-application&#34; title=&#34;message-setting-application&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;メッセージを送信するためには、メインメニューから対象のアプリを選択し、諸設定を行 う必要があります。&lt;/p&gt;
+
+&lt;h1 id=&#34;基本設定&#34;&gt;基本設定&lt;/h1&gt;
+
+&lt;h2 id=&#34;イベント設定&#34;&gt;イベント設定&lt;/h2&gt;
+
+&lt;p&gt;GrowthMessageに登録されているイベントを一覧で表示する画面です。一覧項目は以下の3つになっており、詳細ボタンをクリックするとそれぞれのイベントを起こしたユーザーのログを確認することができます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ID&lt;/li&gt;
+&lt;li&gt;表示名&lt;/li&gt;
+&lt;li&gt;作成日時&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-event-list.png&#34; alt=&#34;message-event-list&#34; title=&#34;message-event-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;タグ設定&#34;&gt;タグ設定&lt;/h2&gt;
+
+&lt;p&gt;GrowthMessage に登録されているタグを一覧で表示する画面です。一覧項目は以下の3つです。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ID&lt;/li&gt;
+&lt;li&gt;表示名&lt;/li&gt;
+&lt;li&gt;作成日時&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-tag-list.png&#34; alt=&#34;message-tag-list&#34; title=&#34;message-tag-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;セク-メント設定&#34;&gt;セグメント設定&lt;/h2&gt;
+
+&lt;p&gt;Growth Message でこれまで作成したセグメントが一覧で閲覧できます。一覧項目は以下 の3つです。セグメントはいつでも編集することができます。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;ID&lt;/li&gt;
+&lt;li&gt;表示名&lt;/li&gt;
+&lt;li&gt;作成日時&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-segment-list.png&#34; alt=&#34;message-segment-list&#34; title=&#34;message-segment-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;配信作成&#34;&gt;配信作成&lt;/h1&gt;
+
+&lt;h2 id=&#34;配信名-説明&#34;&gt;配信名 / 説明&lt;/h2&gt;
+
+&lt;p&gt;配信作成をするために、まずは対象となるアプリをメインメニューの【アプリ】から選択 してください。その後、メインメニューから【配信作成】を選択します。 配信名には、送信したいメッセージのタイトルを入力してください(例: 課金訴求ポップアップ)。配信名の最大文字数は 32 文字です。タスク説明には、送信したいメッセージについての補足説明を入力してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create.png&#34; alt=&#34;message-create&#34; title=&#34;message-create&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配信メッセーシ&#34;&gt;配信メッセージ&lt;/h2&gt;
+
+&lt;p&gt;配信するメッセージのタイプを指定することができます。配信のタイプは 1,テキスト型 2,カード型 3,バナー型 4,ウォークスルー型 の4種が用意されています。パターンは任意で4種まで追加していくことが可能です。追加するには【+パターンを追加】ボタンをクリックしてください。&lt;/p&gt;
+
+&lt;h3 id=&#34;テキスト型&#34;&gt;テキスト型&lt;/h3&gt;
+
+&lt;p&gt;テキストを使ったダイアログの表示方法です。入力項目はタイトル・本文・ボタンのテキスト及びクリック時のアクションとなります。アクションはデフォルトでは登録されていないため、登録する必要があります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-text.png&#34; alt=&#34;message-create-text&#34; title=&#34;message-create-text&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;アクションを追加するためには、【アクション追加】ボタンをクリックします。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-add-action01.png&#34; alt=&#34;message-add-action01&#34; title=&#34;message-add-action01&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;【アクション追加】をクリックすると、以下のようなポップアップが表示されます。※が ついた項目は必須項目となります。アクションのタイプは (1)URL オープン (2)なし (3) カスタムがあります。登録したアクションは、全てのボタンで選択できるアクションとして共有されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-action.png&#34; alt=&#34;message-create-action&#34; title=&#34;message-create-action&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;オープンURL
+
+&lt;ul&gt;
+&lt;li&gt;ボタンをクリックしたあと、ユーザーが指定した URL に遷移するように設定できます。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;なし
+
+&lt;ul&gt;
+&lt;li&gt;ボタンをクリックした後、ユーザーにさせたいアクションがない場合に選択します。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;カスタム&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JSON を使って自由にユーザーにさせたいアクションを設定できます。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;推奨入力文字数&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;タイトル: 推奨32文字
+本文: 推奨64文字
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;カート-型&#34;&gt;カード型&lt;/h3&gt;
+
+&lt;p&gt;画像を用いたダイアログ通知のタイプです。全画面をボタンにし、ユーザーがタップした後に任意のアクションをさせることが可能です。また、ボタンを設置して、ボタンを 押した後のアクションを任意で指定すること可能です。 ダイアログの右上に、閉じるための✖ボタンを設置することができます。設置するには 【✖ボタンをつける】のチェックボックスをクリックしてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-card.png&#34; alt=&#34;message-create-card&#34; title=&#34;message-create-card&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;画像の右上につく【閉じるボタン】は、任意の画像を採用することができます。チェック ボックスをクリックすると、以下のようなポップアップが表示されます。右上の【画像アップロード】をクリックすると、画像のアップロードをすることができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-upload-image.png&#34; alt=&#34;message-upload-image&#34; title=&#34;message-upload-image&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;背景画像推奨サイズ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;推奨サイズ:横 600~800(px)、縦 700~940(px)
+バリデーション:w1200px
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ボタン画像推奨サイズ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;推奨サイズ:横 600~800(px)、縦 60px 以上
+バリデーション:w1200px
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;バナー型&#34;&gt;バナー型&lt;/h3&gt;
+
+&lt;p&gt;画像と文言を用いたプッシュ通知風のタイプです。画像のみを選択した場合は、バナータイプの画像が上部に表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-banner.png&#34; alt=&#34;message-create-banner.png&#34; title=&#34;message-create-banner.png&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AndroidとiOSの表示の違い&lt;/strong&gt;
+Androidのみ、バナーを閉じるボタンを押さないと、アプリ終了後も画面上に表示された状態になります。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;アイコン画像推奨サイズ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;推奨サイズ:横 120(px)、縦 120(px)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;推奨入力文字数&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;- タイトル: 推奨18文字
+- 本文: 推奨16文字
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ウォークスルー型&#34;&gt;ウォークスルー型&lt;/h3&gt;
+
+&lt;p&gt;2枚以上の画像をスライド形式で表示させます。ボタンの設定をすると、タップ後のアクションを指定することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-walkthrough.png&#34; alt=&#34;message-create-walkthrough&#34; title=&#34;message-create-walkthrough&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;背景画像&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;推奨サイズ:横 600~800(px)、縦 700~940(px)
+バリデーション:w1200px
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ボタン画像&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;推奨サイズ:横 600~800(px)、縦 60px 以上
+バリデーション:w1200px
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;フ-レヒ-ュー-実機フ-レヒ-ュー&#34;&gt;プレビュー / 実機プレビュー&lt;/h2&gt;
+
+&lt;p&gt;ユーザーがメッセージを開いた際に、どのように見えるのかをプレビューで確認することができます。また、複数のパターンを作成している場合、そのパターンの合計や内訳を閲覧できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-preview.png&#34; alt=&#34;message-preview&#34; title=&#34;message-preview&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;【実機プレビュー】をクリックすると、以下のようなポップアップが表示され、iOS・Androidそれぞれでの見え方を確認することができます。機種によっては、実際の見え方が少々異 なる場合もございます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-preview-device.png&#34; alt=&#34;message-preview-device&#34; title=&#34;message-preview-device&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;サンフ-ル画像のタ-ウンロート&#34;&gt;サンプル画像のダウンロード&lt;/h2&gt;
+
+&lt;p&gt;サンプル画像のテンプレートを、簡単にダウンロードして使用することができます。使用するために必要な申請などは一切ありません。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-sample-image.png&#34; alt=&#34;message-sample-image&#34; title=&#34;message-sample-image&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配信セク-メント&#34;&gt;配信セグメント&lt;/h2&gt;
+
+&lt;p&gt;メッセージを送りたい配信対象者のセグメントを設定することができます。デフォルトでは【全ユーザー】が選択されています。セグメントのパターンは任意で4種まで追加する ことができます。追加するには【パターンを追加】をクリックしてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-create-segment.png&#34; alt=&#34;message-create-segment&#34; title=&#34;message-create-segment&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;デフォルトで以下のセグメントが登録されています。プルダウン最下部の【セグメント追 加】で、選択肢以外のセグメントを自由に作成することができます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1日間連続でログインしているユーザー
+
+&lt;ul&gt;
+&lt;li&gt;メッセージが配信される当日にログインしたユーザーを指します。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;xx日間連続でログインしているユーザー
+
+&lt;ul&gt;
+&lt;li&gt;メッセージが配信される当日が、連続ログインxx日目にあたるユーザーを指します。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;休眠ユーザー
+
+&lt;ul&gt;
+&lt;li&gt;メッセージが配信される当日が、連続非ログイン3日目以上にあたるユーザーを指しま
+す。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;本日インストールしたユーザー
+
+&lt;ul&gt;
+&lt;li&gt;メッセージが配信される当日に、アプリをインストールしたユーザーを指します。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;xx日前にインストールしたユーザー
+
+&lt;ul&gt;
+&lt;li&gt;メッセージが配信されるxx日前に、アプリをインストールしたユーザーを指します。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;配信イヘ-ント&#34;&gt;配信イベント&lt;/h2&gt;
+
+&lt;p&gt;メッセージを出すタイミングを指定することができる項目です。ユーザーの行動(イベント)に沿って、出すタイミングを調節できます。以下のように入力した場合、&lt;strong&gt;ユーザーがアプリ起動を5回すると、そのうち1回はメッセージが表示されるようになります。&lt;/strong&gt; ※(5回目に起動をした時に表示される仕様ではありません。) タイミングのパターンは任意で4つまで追加していくことが可能です。追加するには【+パターンを追加】ボタンをクリックしてください。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-event-timing.png&#34; alt=&#34;message-event-timing&#34; title=&#34;message-event-timing&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;有効期間-配信回数上限&#34;&gt;有効期間 / 配信回数上限&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;有効期間&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;有効期間の設定で、メッセージが表示される期間を指定することができます。期間中であっても配信を一時停止することは可能です。停止の仕方については、【&lt;a href=&#34;#配信設定&#34;&gt;配信設定&lt;/a&gt;】をご参照ください。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;配信回数上限&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;配信回数上限は、指定下期間内に1人のユーザーに対して何度まで設定したポップアップ を表示させるかを指定することができます。例えば4パターンの配信を設定した時に配信 回数上限を1に設定すると、1人のユーザーが受け取る配信は特定の1パターンのメッセージを1回受け取ることになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-limit.png&#34; alt=&#34;message-limit&#34; title=&#34;message-limit&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配信設定&#34;&gt;配信設定&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;配信 / 停止&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;作成したメッセージの配信を、設定した通りに配信するか、それとも有効期間中であっても一時的に無効化して停止にするのかを設定することができるスイッチがあります。 スイッチは随時、メインメニューの【メッセージ一覧】から切り替えることが可能です。&lt;/p&gt;
+
+&lt;p&gt;同時に複数のメッセージを配信状態にすると、&lt;strong&gt;配信中の設定のうち、どれか1つのメッセージがシステム内でランダムに選択され、対象のユーザーにメッセージを配信する&lt;/strong&gt;仕様になっております。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;テストユーザーにのみ配信&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;【テストユーザーにのみ配信】というチェックボックスをクリックすると、テストユーザーにのみ設定したメッセージを配信することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-test.png&#34; alt=&#34;message-test&#34; title=&#34;message-test&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;配信ハ-ターン-保存&#34;&gt;配信パターン / 保存&lt;/h2&gt;
+
+&lt;p&gt;設定したメッセージは、どれだけのパターンが作られて配信されることになっているのかを確認することができます。 全てのパターンはほぼ同数に送られるよう、自動で振り分けがされています。&lt;/p&gt;
+
+&lt;p&gt;【保存】ボタンをクリックすると、設定したメッセージを保存することができます。保存したメッセージはメインメニューにある、【メッセージ一覧】で確認することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-pattern.png&#34; alt=&#34;message-pattern&#34; title=&#34;message-pattern&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;配信一覧&#34;&gt;配信一覧&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧項目&#34;&gt;一覧項目&lt;/h2&gt;
+
+&lt;p&gt;作成したメッセージは、メッセージ一覧にストックされていきます。一覧では以下の7項目が確認できます。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;各メッセージに付与されるメッセージ ID(メッセージ ID) ・配信名&lt;/li&gt;
+&lt;li&gt;フォーマット&lt;/li&gt;
+&lt;li&gt;配信設定(配信中か、停止中か。 テストユーザー向けか否か。) ・配信開始日時&lt;/li&gt;
+&lt;li&gt;配信終了日時&lt;/li&gt;
+&lt;li&gt;配信イベント(配信されるタイミング)&lt;/li&gt;
+&lt;li&gt;配信セグメント(配信を受け取る対象ユーザー)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-list.png&#34; alt=&#34;message-list&#34; title=&#34;message-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;分析-編集&#34;&gt;分析 / 編集&lt;/h2&gt;
+
+&lt;p&gt;一覧の最右にある分析ボタンを押すと、配信したメッセージを目にしたユーザー数を調べることができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-analytics.png&#34; alt=&#34;message-analytics.png&#34; title=&#34;message-analytics.png&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;ユーザーがメッセージを✖ボタンで消した場合、それはアクションとしてはカウントされません。 また、右上のプルダウンを利用して、メッセージを見たあとのユーザーのアクションを絞ることで、グラフや一覧表に反映させる数値を絞り込むことができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-analytics-detail.png&#34; alt=&#34;message-analytics-detail&#34; title=&#34;message-analytics-detail&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;編集ボタンを押すと、選択したメッセージの作成ページへ遷移します。ここで作成した内容を修正することが可能ですが、パターンの追加を行うことはできません。テキスト及び画像のみが編集の対象となります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-edit.png&#34; alt=&#34;message-edit&#34; title=&#34;message-edit&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;アクション一覧&#34;&gt;アクション一覧&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧項目-1&#34;&gt;一覧項目&lt;/h2&gt;
+
+&lt;p&gt;作成した、メッセージのボタンを押した後のユーザーアクションを一覧でみることができ ます。確認できる項目は以下の4つです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;各アクションに付与される ID(ID)&lt;/li&gt;
+&lt;li&gt;各アクション作成時につけた名前(アクション名)&lt;/li&gt;
+&lt;li&gt;各アクション作成時に入力した説明(説明)&lt;/li&gt;
+&lt;li&gt;各アクション作成日時(作成日時)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-action-list.png&#34; alt=&#34;message-action-list&#34; title=&#34;message-action-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;編集&#34;&gt;編集&lt;/h2&gt;
+
+&lt;p&gt;作成したアクションを編集することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-edit-action.png&#34; alt=&#34;message-edit-action&#34; title=&#34;message-edit-action&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;アクションの追加&#34;&gt;アクションの追加&lt;/h2&gt;
+
+&lt;p&gt;新しいアクションを追加することができます。ここで作成したアクションは、ユーザーがメッセージ上のボタンをクリックした後に起こるアクションとして利用します。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-add-action02.png&#34; alt=&#34;message-add-action&#34; title=&#34;message-add-action&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;テストユーサ-ー一覧&#34;&gt;テストユーザー一覧&lt;/h1&gt;
+
+&lt;h2 id=&#34;一覧項目-2&#34;&gt;一覧項目&lt;/h2&gt;
+
+&lt;p&gt;作成した、テストデバイスとして登録したテストユーザーを一覧でみることができます。 確認できる項目は以下の4つです。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;デバイス名(判別するために自由に入力することができます。&lt;/li&gt;
+&lt;li&gt;ユーザー名(アプリのユーザーID を入力します。)&lt;/li&gt;
+&lt;li&gt;更新日(更新た期日が記載されています。)&lt;/li&gt;
+&lt;li&gt;作成日(作成された日時が記載されています。)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-test-user-list.png&#34; alt=&#34;message-test-user-list&#34; title=&#34;message-test-user-list&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;テストユーサ-ー追加&#34;&gt;テストユーザー追加&lt;/h2&gt;
+
+&lt;p&gt;【テストユーザー追加】をクリックし、必要な項目を入力して登録すると、テストユーザーを追加することができます。クリックすると、次のようなポップアップが表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://support.growthbeat.com/img/message/message-add-test-user.png&#34; alt=&#34;message-add-test-user&#34; title=&#34;message-add-test-user&#34; width=&#34;100%&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;デバイス名は、テストデバイスを判別するための説明を自由に入力することができます。ユーザー名には実装時に設定したユニークなユーザー値を入力する必要があります。実装に関しては &lt;a href=&#34;http://support.growthbeat.com/sdk/ios/reference/#特定のタグを送信&#34;&gt;iOSはこちら&lt;/a&gt; 、 &lt;a href=&#34;http://support.growthbeat.com/sdk/android/reference/#特定のタグを送信&#34;&gt;Androidはこちら&lt;/a&gt; を参照してください。&lt;/p&gt;
+
+&lt;p&gt;正常に登録が完了しておりますと、下記ページにて設定した値を確認ができます。&lt;/p&gt;
+
+&lt;p&gt;基本設定 &amp;gt; タグ設定 &amp;gt; ID: &lt;code&gt;Tag:${ApplicationId}:Default:UserID&lt;/code&gt; 表示名:ユーザーID &amp;gt; 詳細&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
